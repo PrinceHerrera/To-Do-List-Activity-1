@@ -1,0 +1,84 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+#title {
+  background-color: lightgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  margin: auto;
+  border-radius: 50px;
+  
+}
+
+.AddTaskBar {
+  display: flex;
+  justify-content: center;
+}
+
+#taskInput {
+  width: 200px;
+  height: 20px;
+  margin-top: 22px;
+  margin-left: 20px;
+}
+
+#addTaskButton {
+  width: 50px;
+  height: 30px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.TaskList {
+  border-style: solid;
+  border-width: 5px;
+  border-color: green;
+  border-radius: 50px;
+  margin:auto;
+  margin-top: 15px;
+  background-color: lightgrey;
+  width: 600px;
+  height: 400px;
+  padding: 10px;
+  overflow-y: auto;
+
+}
+
+#tasksTitle {
+  margin: auto;
+  display:flex;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+.delButton {
+  color: red;
+  margin-left: 5px;
+}
+
+.checkButton {
+  margin-left: 15px;
+  margin-right: 5px;
+  transform: scale(1.5);
+}
+
+.completed {
+  text-decoration: line-through;
+  color: white;
+}
+
+.lineDesign {
+  margin-right: 150px;
+  width: 500px;
+}
